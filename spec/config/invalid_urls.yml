@@ -1,0 +1,52 @@
+pointless:
+  - web.asd dot.com
+  - webasd\tdot.com
+  - random
+  - http://
+  - http:/
+  - http://.com
+  - http://ssh://google.com
+  - http://ftp://ftp.google.com
+  - <>hi
+  - www.vsdfbdfsbsdfbsdnflbsdfjnbfldsjbnsdlfbndjlsfnblsdjfkbnlsdfknbklsdfjbnlsjdkfbnsjkdlfbnkjsdlfnbklsdfnbklsdfnbklsdfjbnksdjlfbnklsdfjbnlkjsdfnbklsdjfbnlkjsdfbnjfdsvsdkfjnbjdksfnbdslkfjbnjsdfklbnsdjkflbnjsdfbndsbfdfb.com
+  - http://www.sdfbnldsnfjbldsfjkbnldksfjbnlkdfjnblkd.fsjnblkdfsjbndfljkvnsfdj.bkndsfkljbnsljdkbnsdflkbjnsdflk.bjnsldfkjbn.ldksfjbnlksdfjnblksdfnb.lsdkfjbndsflkjbndsflkbjndslfkbnldsfkj.bnkjsldfnblksdfjbnlsdkfn.bldskfjbnldskfbndlsf.kbjndflkbndfslkbnjdsfblkdsjfn.bldskfnblsdfnbjksdflkbnj.org
+
+misprints:
+  - htt://www.website.com
+  - htttp://www.website.com
+  - http://foo_bar.com
+  - http://example.com.
+  - http://example.com./foo
+  - http://ex ample.com
+  - http://example com
+  - http:/www.google.com
+  - http://example.com/foo bar
+  - http://r?ksmorgas.com
+  - http://www.example/specific
+  - http://www.example/subpage.com
+
+local:
+  - http://localhost
+  - https://localhost
+
+non_existent_zone:
+  - http://www.詹姆斯.c
+  - http://example.xy
+  - hello.roman
+  - http://example.c
+  - http://example.toolongtld
+  - http://my.localurl
+
+invalid_ip:
+  - http://308.77.188.166/
+  - http://308.77.188/
+  - http://256.0.0.1
+
+unsupported_protocols:
+  - ftp://website.com
+  - new://www.website.com
+  - ftp://www.詹姆斯
+  - ftp://localhost
+  - ssh://google.com
+  - ftp://ftp.google.com
+  - ftp://username:password@hostname.com/

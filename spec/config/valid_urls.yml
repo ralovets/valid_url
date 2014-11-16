@@ -1,0 +1,108 @@
+multidomains:
+  - jabber.tcp.gmail.com
+  - sip.udp.apnic.net
+  - http://sub.domain.example.com/
+
+common:
+  - blog.example.com
+  - cats.example-petstore.com
+  - dogs.example-petstore.com
+  - example.com.br
+  - fr.example.com
+  - www.example-blog.com
+  - www.example-commerce-host.com/myCart/
+  - www.example-petstore.com
+  - www.example.com/fr/
+  - www.example.com/index.php
+  - www.example.de
+  - www.example.fr
+  - jamaica.example.com
+  - somesite.travel
+  - specialproduct.example.com
+  - stage.website.com/m/65/John_Oconer
+  - sub.example.com/more.php
+  - website.com
+  - wEbsIte.coM
+  - website.com/blog
+  - website.com/~smith//a//
+  - www.micro-example-product.com
+  - www.my-example-blog.com
+  - www.my-example-blogsite.com
+  - www.website.com/~smith////
+
+port:
+  - http://example.com:8000/display?lang=en&article=fred
+  - http://www.example.com:80/display?id=&sort=ascending
+
+ip:
+  - http://1.0.255.249
+  - http://208.77.188.166/
+  - http://1.2.3.4:3000/display?id=123&fakefoo=fakebar
+
+extended:
+  - http://bbc.co.uk
+  - http://c.cpl1.ru/6SzD/tsr-pbalance
+  - http://www.p3ptoolbox.org/guide/
+  - http://www.sub.example.com/page.html?foo=bar&baz=%23#anchor
+  - http://www.w3.org/P3P/usep3p.html
+  - http://example.museum
+  - http://foo.bar.xn--rksmrgs-5wao1o.nu
+  - http://sub.example.com/more.php
+  - http://trackback.bakeinu.jp/bakeping.php
+  - http://website.com/~smith/
+  - http://website.com/~smith////
+  - http://example.com
+  - HttP://exAMPle.cOM
+  - hTtp://example.com/
+  - http://example.com?foo
+  - http://example.com?url=http://example.com
+  - http://www.example.com/a/
+  - http://www.example.com/a/index.html
+  - http://www.example.com/bar.html
+  - http://www.example.com/bar.html#section1
+  - http://www.example.com/default.asp
+  - http://www.example.com/display
+  - http://www.example.com/display?
+  - http://www.example.com/display?article=fred&lang=en
+  - http://www.example.com/display?id=123
+  - http://www.example.com/foo//bar.html
+  - http://www.example.com/foo/bar.html
+  - http://www.example.com/index.php
+  - http://www.example.com/web-review/en/websitestat?domain=1000places.com
+
+authorization:
+  - http://user:@example.com
+  - http://user:pass@example.com
+
+long:
+  - http://ads.traffunky.net/click?data1=G0TmRaaTvylLFloPzyxj6vdz75TLCc4Q8lIquK32ILbAScnt1xeSQtRdlRcaCFPY&data2=_p6PBQJVpNSPbQZKSZiRx_ISBqdxBbgUmqkfPRkPf_A=&qw=0&def=0&campign_id=82908&ad_id=1389970&zone_id=47&site_id=2&bid_id=253766&goal=0&c=babe%20fuced%20had&chanel[tags]=%2Cbbe%2Cfued%2Chrd&channel[categories]=Babe&x=1
+  - http://advertlink.ru/vmclick.php?6a343f92a46507884564e7c9e3b3203da73d707551e480073207bddff636c134fe468786df1c0a7835d09c6fb90bcd4e7425c30f67c8468e3cd394feca804da2d0e84a85807639dc5ee36a7cc3802703fdee6797d618b9cb645c54c1acf62db34d47986853f387cdfd8b8dbfad0090bab8b7f13c11e94efdc8626c3014b812f2334883ea58da26a409d72fb35c0c1c65c34af8c706dda4d578a493ede10aa9b5;eb4661f9636a672ee88b663b0e3a97cf1c9246d82fd2266ddde9a0f6b3abbef1
+  - http://www.google.com/partners/?sourceid=awo&subid=ru-ww-et-g_prt-g-webpage&utm_source=owned_media&utm_medium=ep&utm_content=BusSolutionsSitemap&utm_campaign=other_owned_media&utm_content=ru-ww#a_search
+  - http://www.googleadservices.com/pagead/aclk?sa=L&ai=Czp6mnXZnVP6KGu_xyAOy3YGQB-rdl6ZBisOKzr8BqvjRkdoBEAEggvHkG2CEzfCFpB6gAbbJiuIDyAEGqAMBqgRpT9BW0skYBn9_IjxKqFvDZ92WbwxCRDdTSqlobiEvbrJZAN7vYd_IIACddHDqqYAy1S6S14JU8O9CGLwe34Hgr59nSkxCCZGSSl3Ckhcf42UVSPZJKsXKRBs1Fg5mlpsX-OF4EHLonsfk-gUGCCUQARgAiAYBoAY3gAeytvUd&num=1&cid=5GimiKXT_lL9bIqlofjahoBN&sig=AOD64_20TPfR4QJ10Bi0bjzgtvtDIjM0SQ&adurl=http://www.aviasales.ru/%3Fmarker%3D15468.gadynremnewdefaultp%26origin%3DLED%26destination%3DWAW%26depart_date%3D2014-12-05%26return_date%3D2014-12-08&client=ca-pub-8285639243884489&nb=0
+  - http://www.marketgid.com/marketpopup.4150.html
+  - http://www.marketgid.com/tnews/2400570/i/0/167/p/1/6/?rh=&th=osIviFhcbwQ9ElvGe4msBX4Sj6Pw7GezLicNVtFHqU7xA2dhFvMT_uVO2DbTX4m-&k=faSMTQxNjA2NjgxMDU1MjIwNjcyNQ%3D%3DfbSMjNhfcSMTQ5YjQyOGMyYjg%3DfdSMTQ5YjQyOGVkYWU%3DfeSfgSMmI4fhSMjAwfiSMjg3fjSfkSMTA5flSfmSYzY%3DfnSMTMxfoSfpSMjAwfqSNDA%3DfrSfsSaHR0cDovL3d3dy5tYXJrZXRnaWQuY29tL3BuZXdzLzcyNzM3My8jc3RoYXNoLlMwTGZrVGZOLmRwYnM%3DftSaHR0cDovL3d3dy5nb29nbGUucnUvdXJsP3NhPXQmcmN0PWomcT0mZXNyYz1zJnNvdXJjZT13ZWImY2Q9O%24Z2ZWQ9MENFNFFGakFJJnVybD1odHRwJTNBJTJGJTJGd3d3Lm1hcmtldGdpZC5jb20lMkZwbmV3cyUyRjcyNzM3MyUyRiZlaT02M1puVk5tZk1vdTZ5Z1BMNFlLNEF3JnVzZz1BRlFqQ05HOXliVk9X%24Fozd3J*UG1G%24mhodnM2dFNhVlB3JnNpZzI9aVNUM3JQeWNubTYxZ0tyVjhIelY1Q%24Zidm09YnYuNzkxNDIyNDYsZC5iR1E%3DfuSaHR0cCUzQ%24UyRiUyRnd3dy5nb29nbGUucnUlMkZ1cmwlM0ZzY%24UzRHQlMjZyY3QlM0RqJTI2c%24UzRCUyNmVzcmMlM0RzJTI2c291cmNlJTNEd2ViJTI2Y2QlM0Q5JTI2dmVkJTNEMENFNFFGakFJJTI2dXJsJTNEaHR0cCUyNTNBJTI1MkYlMjUyRnd3dy5tYXJrZXRnaWQuY29tJTI1MkZwbmV3cyUyNTJGNzI3MzczJTI1MkYlMjZla%24UzRDYzWm5WTm1mTW91NnlnUEw0WUs0QXclMjZ1c2clM0RBRlFqQ05HOXliVk9X%24Fozd3J*UG1G%24mhodnM2dFNhVlB3JTI2c2lnMiUzRGlTVDNyUHljbm02MWdLclY4%24HpWNUElMjZidm0lM0Ridi43OTE0MjI0NiUyQ2QuYkdRfvSMQ%3D%3DfwSMmI4fxSMzBhfySMjg2faSMWI4fbSMQ%3D%3DfcSMQ%3D%3DfdSNWEwfeSMzg0fgSfhSNTdhfiSMzZkfjSQXBwbGUgQ29tcHV0ZXIsIEluYy4%3DfkSTWFj%24W50ZWw%3DflSMQ%3D%3DfmSaXNvLTg4NTktMQ%3D%3DfnSfoSfpSfqSfrSfsSMTg%3DftSMTg%3DfuSNGI%3DfvSOA%3D%3DfwSfxSNA%3D%3DfySMQ%3D%3DfaSMQ%3D%3DfbSfcSMTA5MTQyOTgzNQ%3D%3DfdSLTE0NDAwOTA2NjQ%3D
+  - http://www.marketgid.com/tnews/3149909/i/0/167/p/1/8/?rh=&th=osIviFhcbwQ9ElvGe4msBa0hb1vNzniOND21TBcAK34QLhW_YSQcP5DNPribKjyg&k=faSMTQxNjA2NjgxMDU1MjIwNjcyNQ%3D%3DfbSMjg2fcSMTQ5YjQyOGMyYjg%3DfdSMTQ5YjQyOWNmOTg%3DfeSfgSNzI%3DfhSMjMxfiSYg%3D%3DfjSfkSMTQyflSfmSYzY%3DfnSMTQ0foSfpSMjMxfqSNDA%3DfrSfsSaHR0cDovL3d3dy5tYXJrZXRnaWQuY29tL3BuZXdzLzcyNzM3My8jc3RoYXNoLlMwTGZrVGZOLmRwYnM%3DftSaHR0cDovL3d3dy5nb29nbGUucnUvdXJsP3NhPXQmcmN0PWomcT0mZXNyYz1zJnNvdXJjZT13ZWImY2Q9O%24Z2ZWQ9MENFNFFGakFJJnVybD1odHRwJTNBJTJGJTJGd3d3Lm1hcmtldGdpZC5jb20lMkZwbmV3cyUyRjcyNzM3MyUyRiZlaT02M1puVk5tZk1vdTZ5Z1BMNFlLNEF3JnVzZz1BRlFqQ05HOXliVk9X%24Fozd3J*UG1G%24mhodnM2dFNhVlB3JnNpZzI9aVNUM3JQeWNubTYxZ0tyVjhIelY1Q%24Zidm09YnYuNzkxNDIyNDYsZC5iR1E%3DfuSaHR0cCUzQ%24UyRiUyRnd3dy5nb29nbGUucnUlMkZ1cmwlM0ZzY%24UzRHQlMjZyY3QlM0RqJTI2c%24UzRCUyNmVzcmMlM0RzJTI2c291cmNlJTNEd2ViJTI2Y2QlM0Q5JTI2dmVkJTNEMENFNFFGakFJJTI2dXJsJTNEaHR0cCUyNTNBJTI1MkYlMjUyRnd3dy5tYXJrZXRnaWQuY29tJTI1MkZwbmV3cyUyNTJGNzI3MzczJTI1MkYlMjZla%24UzRDYzWm5WTm1mTW91NnlnUEw0WUs0QXclMjZ1c2clM0RBRlFqQ05HOXliVk9X%24Fozd3J*UG1G%24mhodnM2dFNhVlB3JTI2c2lnMiUzRGlTVDNyUHljbm02MWdLclY4%24HpWNUElMjZidm0lM0Ridi43OTE0MjI0NiUyQ2QuYkdRfvSMQ%3D%3DfwSNzI%3DfxSNDVmfySYQ%3D%3DfaSMzE1fbSMQ%3D%3DfcSMQ%3D%3DfdSNWEwfeSMzg0fgSfhSNTdhfiSMzZkfjSQXBwbGUgQ29tcHV0ZXIsIEluYy4%3DfkSTWFj%24W50ZWw%3DflSMQ%3D%3DfmSaXNvLTg4NTktMQ%3D%3DfnSfoSfpSfqSfrSfsSMTg%3DftSMTg%3DfuSNGI%3DfvSOA%3D%3DfwSfxSNA%3D%3DfySMQ%3D%3DfaSMQ%3D%3DfbSfcSMTA5MTQyOTgzNQ%3D%3DfdSLTE0NDAwOTA2NjQ%3D
+  - http://n.actionpay.ru/click/5416aceb8b30a8856e8b45ac/6087/tizertest-chasy10/url=http://ru.aliexpress.com/item/New-2014-men-sports-watch-Quartz-LED-Dual-Movt-Day-Date-Design-Round-Dial-Steel-watch/1862953351.html
+
+international:
+  - http://www.xn--rksmrgs-5wao1o.nu
+  - http://www.中国政府.政务.cn
+  - http://xn--rksmrgs-5wao1o.nu
+  - http://втф.com
+  - http://саб-зиро.рф
+  - www.xn--8ws00zhy3a.com
+  - www.xn--itrntinliztin-vdb0a5exd8ewcye.com
+  - www.詹姆斯.com
+  - xn--eek174hoxfpr4k.com
+  - リ宠퐱卄.com
+  - http://räksmörgås.nu
+  - http://welcome.advertising.yandex.ru/direct/entry.xml?from=yasearch_button_control_promoi&id=add-n&text=привет#search
+  - www.Iñtërnâtiônàlizætiøn.com
+
+https:
+  - https://example.com
+  - https://passport.yandex.ru/passport?mode=auth&retpath=https%3A%2F%2Fdirect.yandex.ru%2Fregistered%2Fmain.pl%3Fauthredirlevel%3D1416064048.0%26cmd%3DForecastByWords&ncrnd=860
+  - https://rubygems.org/search?utf8=✓&query=URL+VALIDATOR
+  - https://www.example.com/
+  - https://www.website.com/
+  - https://www.odesk.com/?query=ruby%2Brails
