@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = ValidUrl::VERSION
   s.authors     = ["Roman Ralovets"]
   s.email       = ["roman@ralovets.ru"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/ralovets/valid_url"
   s.summary     = "The most accurate and reliable rails url validator"
   s.description = "Provides with the ability to validate url (Rails 4)"
   s.license     = "MIT"
