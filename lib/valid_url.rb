@@ -4,7 +4,7 @@ require "resolv"
 module ActiveModel
   module Validations
     class UrlValidator < ActiveModel::EachValidator
-      domain = YAML.load File.read(File.expand_path("lib/config/domain.yml"))
+      domain = YAML.load File.read(File.dirname(__FILE__) + '/config/domain.yml')
 
       PROTOCOLS = domain["protocols"]
       ZONES = domain["zones"]
