@@ -10,8 +10,8 @@ module ActiveModel
       ZONES = domain["zones"]
 
       def validate_each(record, attribute, value)
-        url = ensure_protocol(value)
         begin
+          url = ensure_protocol(value)
           uri = Addressable::URI.parse(url)
         rescue
           invalid = true
