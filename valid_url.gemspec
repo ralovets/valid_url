@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["roman@ralovets.ru"]
   s.homepage    = "https://github.com/ralovets/valid_url"
   s.summary     = "The most accurate and reliable rails url validator"
-  s.description = "Provides with the ability to validate url (Rails 4)"
+  s.description = "Provides with the ability to validate url (Rails 4). Allow using http, https and schema-less urls, checks domain zones, IP-based hostnames, name space specifications and hostname characters."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
