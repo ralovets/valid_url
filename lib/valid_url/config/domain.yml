@@ -438,7 +438,7 @@ zones:
   - ni
   - ninja
   - nl
-  - no
+  - 'no'
   - np
   - nr
   - nra
@@ -764,3 +764,4 @@ zones:
   - zm
   - zone
   - zw
+
