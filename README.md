@@ -24,10 +24,10 @@ class WebSite < ActiveRecord::Base
   validates :url, :url => true
 end
 ```
-
+...
 ## Features
 
-* Allow using *http*, *https* and *schema-less* urls. (will be configurable in future)
+* Allow using *http*, *https* and *schema-less* urls. (will be configurable in future)...
 * Checking domain zones ([The Root Zone Database](http://www.iana.org/domains/root/db))
 * Allow and validate ip-based hostnames.
 * Checking name space specifications and terminology (RFC 1034, Section 3.1).
@@ -45,6 +45,8 @@ The highest test coverage with more than a hundred different valid and invalid u
 
 Special thanks go to the **Addressable** gem author and contributors.
 However, there are plans to abandon third-party libraries.
+
+...
 
 ## License
 

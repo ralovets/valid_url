@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    valid_url (0.0.4)
+    valid_url (0.0.5)
       addressable
       rails
 

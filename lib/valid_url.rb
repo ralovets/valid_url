@@ -5,6 +5,8 @@ require "resolv"
 module ActiveModel
   module Validations
     class UrlValidator < ActiveModel::EachValidator
+      # CHECKS = { :schemes,  }.freeze
+
       domain = YAML.load File.read(File.dirname(__FILE__) + '/valid_url/config/domain.yml')
 
       PROTOCOLS = domain["protocols"]

@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name        = "valid_url"
   s.version     = ValidUrl::VERSION
   s.authors     = ["Roman Ralovets"]
-  s.email       = ["roman@ralovets.ru"]
+  s.email       = ["roman@ralovets.com"]
   s.homepage    = "https://github.com/ralovets/valid_url"
   s.summary     = "The most accurate and reliable rails url validator"
   s.description = "Provides with the ability to validate url (Rails 4). Allow using http, https and schema-less urls, checks domain zones, IP-based hostnames, name space specifications and hostname characters."
