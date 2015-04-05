@@ -44,53 +44,80 @@ describe "UrlValidator" do
     context 'special' do
       it 'nil' do
         subject.url = nil
-        is_expected.not_to be_valid
+        is_expected.to be_valid
       end
     end
   end
 
-  context 'schemes' do
+  context 'gets possible schemes' do
     before :all do
       Validatable.class_eval do
-        validates :url, url: {schemes: [:http, :ftp, :sftp]}
+        validates :url, url: {schemes: [:https, :udp]}
       end
     end
 
-    # it 'wrong scheme' do
-    #   subject.url = "https://www.ruby-lang.org"
-    #   expect(subject).not_to be_valid
-    # end
-  end
+    it 'wrong' do
+      subject.url = "http://www.ruby-lang.org"
+      is_expected.not_to be_valid
+    end
 
-  context 'default scheme' do
-    before :all do
-      Validatable.class_eval do
-        validates :url, url: {default_scheme: :https}
-      end
+    it 'uncommon' do
+      subject.url = "udp://1.2.3.4:5000"
+      is_expected.to be_valid
     end
   end
 
-  context 'schemeless' do
+  context 'denies schemeless domains' do
     before :all do
       Validatable.class_eval do
         validates :url, url: {allow_schemeless: false}
       end
     end
+
+    it 'with scheme' do
+      subject.url = "http://www.ruby-lang.org"
+      is_expected.to be_valid
+    end
+
+    it 'without scheme' do
+      subject.url = "www.ruby-lang.org"
+      is_expected.not_to be_valid
+    end
   end
 
-  context 'iana domains root zone' do
+  context 'disables checking iana domains root zone' do
     before :all do
       Validatable.class_eval do
         validates :url, url: {iana_domains: false}
       end
     end
+
+    it 'iana domain' do
+      subject.url = "http://example.com"
+      is_expected.to be_valid
+    end
+
+    it 'random domain' do
+      subject.url = "http://www.example.ruby"
+      is_expected.to be_valid
+    end
   end
 
-  context 'ip hosts' do
+  context 'denies ip hosts' do
     before :all do
       Validatable.class_eval do
-        validates :url, url: {iana_domains: false}
+        validates :url, url: {ip: false}
       end
+    end
+
+    it 'common domain' do
+      subject.url = 'https://ruby-lang.org'
+      is_expected.to be_valid
+    end
+
+    it 'ip host' do
+      subject.url = "212.188.10.227"
+      is_expected.not_to be_valid
     end
   end
 end
