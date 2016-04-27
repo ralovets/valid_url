@@ -1,6 +1,7 @@
 # -*- encoding : utf-8 -*-
 require "addressable/uri"
 require "resolv"
+require "yaml"
 
 module ActiveModel
   module Validations
