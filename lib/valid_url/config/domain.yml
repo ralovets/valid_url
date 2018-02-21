@@ -31,6 +31,7 @@ zones:
   - af
   - afamilycompany
   - afl
+  - africa
   - ag
   - agakhan
   - agency
@@ -63,12 +64,14 @@ zones:
   - anquan
   - anz
   - ao
+  - aol
   - apartments
   - app
   - apple
   - aq
   - aquarelle
   - ar
+  - arab
   - aramco
   - archi
   - army
@@ -111,6 +114,8 @@ zones:
   - barclays
   - barefoot
   - bargains
+  - baseball
+  - basketball
   - bauhaus
   - bayern
   - bb
@@ -168,8 +173,10 @@ zones:
   - boots
   - bosch
   - bostik
+  - boston
   - bot
   - boutique
+  - box
   - bq
   - br
   - bradesco
@@ -215,10 +222,13 @@ zones:
   - cars
   - cartier
   - casa
+  - case
+  - caseih
   - cash
   - casino
   - cat
   - catering
+  - catholic
   - cba
   - cbn
   - cbre
@@ -302,6 +312,7 @@ zones:
   - cricket
   - crown
   - crs
+  - cruise
   - cruises
   - csc
   - cu
@@ -316,6 +327,7 @@ zones:
   - dabur
   - dad
   - dance
+  - data
   - date
   - dating
   - datsun
@@ -370,6 +382,7 @@ zones:
   - dupont
   - durban
   - dvag
+  - dvr
   - dz
   - earth
   - eat
@@ -398,6 +411,7 @@ zones:
   - estate
   - esurance
   - et
+  - etisalat
   - eu
   - eurovision
   - eus
@@ -450,6 +464,7 @@ zones:
   - fm
   - fo
   - foo
+  - food
   - foodnetwork
   - football
   - ford
@@ -459,6 +474,7 @@ zones:
   - foundation
   - fox
   - fr
+  - free
   - fresenius
   - frl
   - frogans
@@ -467,6 +483,7 @@ zones:
   - ftr
   - fujitsu
   - fujixerox
+  - fun
   - fund
   - furniture
   - futbol
@@ -530,6 +547,7 @@ zones:
   - gratis
   - green
   - gripe
+  - grocery
   - group
   - gs
   - gt
@@ -542,6 +560,7 @@ zones:
   - guru
   - gw
   - gy
+  - hair
   - hamburg
   - hangout
   - haus
@@ -573,10 +592,12 @@ zones:
   - honda
   - honeywell
   - horse
+  - hospital
   - host
   - hosting
   - hot
   - hoteles
+  - hotels
   - hotmail
   - house
   - how
@@ -631,6 +652,7 @@ zones:
   - it
   - itau
   - itv
+  - iveco
   - iwc
   - jaguar
   - java
@@ -640,6 +662,7 @@ zones:
   - jeep
   - jetzt
   - jewelry
+  - jio
   - jlc
   - jll
   - jm
@@ -766,6 +789,7 @@ zones:
   - man
   - management
   - mango
+  - map
   - market
   - marketing
   - markets
@@ -789,6 +813,7 @@ zones:
   - men
   - menu
   - meo
+  - merckmsd
   - metlife
   - mf
   - mg
@@ -809,6 +834,7 @@ zones:
   - mn
   - mo
   - mobi
+  - mobile
   - mobily
   - moda
   - moe
@@ -822,6 +848,7 @@ zones:
   - mormon
   - mortgage
   - moscow
+  - moto
   - motorcycles
   - mov
   - movie
@@ -862,6 +889,7 @@ zones:
   - network
   - neustar
   - new
+  - newholland
   - news
   - next
   - nextdirect
@@ -895,6 +923,7 @@ zones:
   - nyc
   - nz
   - obi
+  - observer
   - off
   - office
   - okinawa
@@ -941,7 +970,9 @@ zones:
   - pg
   - ph
   - pharmacy
+  - phd
   - philips
+  - phone
   - photo
   - photography
   - photos
@@ -999,6 +1030,7 @@ zones:
   - quest
   - qvc
   - racing
+  - radio
   - raid
   - re
   - read
@@ -1013,6 +1045,7 @@ zones:
   - reise
   - reisen
   - reit
+  - reliance
   - ren
   - rent
   - rentals
@@ -1028,8 +1061,10 @@ zones:
   - richardli
   - ricoh
   - rightathome
+  - ril
   - rio
   - rip
+  - rmit
   - ro
   - rocher
   - rocks
@@ -1039,6 +1074,7 @@ zones:
   - rs
   - rsvp
   - ru
+  - rugby
   - ruhr
   - run
   - rw
@@ -1080,6 +1116,7 @@ zones:
   - scot
   - sd
   - se
+  - search
   - seat
   - secure
   - security
@@ -1139,6 +1176,7 @@ zones:
   - soy
   - space
   - spiegel
+  - sport
   - spot
   - spreadbetting
   - sr
@@ -1303,6 +1341,7 @@ zones:
   - vn
   - vodka
   - volkswagen
+  - volvo
   - vote
   - voting
   - voto
@@ -1341,6 +1380,7 @@ zones:
   - work
   - works
   - world
+  - wow
   - ws
   - wtc
   - wtf
@@ -1377,6 +1417,7 @@ zones:
   - москва
   - испытание
   - қаз
+  - католик
   - онлайн
   - сайт
   - 联通
@@ -1419,6 +1460,7 @@ zones:
   - 測試
   - クラウド
   - ભારત
+  - 通販
   - भारतम्
   - भारत
   - भारोत
@@ -1446,8 +1488,10 @@ zones:
   - ‏ارامكو‎
   - ‏ایران‎
   - ‏العليان‎
+  - اتصالات‎
   - ‏امارات‎
   - ‏بازار‎
+  - موريتانيا‎
   - ‏پاکستان‎
   - ‏الاردن‎
   - ‏موبايلي‎
@@ -1457,6 +1501,7 @@ zones:
   - ‏ابوظبي‎
   - ‏السعودية‎
   - ‏ڀارت‎
+  - كاثوليك‎
   - ‏سودان‎
   - ‏همراه‎
   - ‏عراق‎
@@ -1466,12 +1511,14 @@ zones:
   - 政府
   - ‏شبكة‎
   - ‏بيتك‎
+  - عرب‎
   - გე
   - 机构
   - 组织机构
   - 健康
   - ไทย
   - ‏سورية‎
+  - 招聘
   - рус
   - рф
   - 珠宝
@@ -1487,6 +1534,7 @@ zones:
   - 网址
   - 닷넷
   - コム
+  - 天主教
   - 游戏
   - vermögensberater
   - vermögensberatung
