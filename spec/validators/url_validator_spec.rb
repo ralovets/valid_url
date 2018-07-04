@@ -9,6 +9,12 @@ class Validatable
   validates :url, url: true
 end
 
+class ValidatableWithProtocol
+  include ActiveModel::Validations
+  attr_accessor :url
+  validates :url, url: {ensure_protocol: true}
+end
+
 def load_yml path
   YAML.load File.read(File.expand_path(path))
 end
@@ -48,4 +54,23 @@ describe "UrlValidator" do
     end
   end
 
+  context "when 'ensure_protocol' option is set to true" do
+    subject { ValidatableWithProtocol.new }
+
+    it "leaves the url as-is when a protocol is specified" do
+      url = 'http://blog.example.com'
+
+      subject.url = url
+      expect(subject).to be_valid
+      expect(subject.url).to eq(url)
+    end
+
+    it "updates the url with the default protocol when not specified" do
+      url = 'blog.example.com'
+
+      subject.url = url
+      expect(subject).to be_valid
+      expect(subject.url).to eq("http://#{url}")
+    end
+  end
 end

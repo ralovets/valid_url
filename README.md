@@ -25,6 +25,14 @@ class WebSite < ActiveRecord::Base
 end
 ```
 
+If you would like to automatically update url's with missing protocols, use the `ensure_protocol` option:
+
+```ruby
+validates :url, :url => {:ensure_protocol => true}
+```
+
+This will update your attribute, prepending the default "https://" protocol. This way, urls without a protocol still pass validation, but don't get into your database without a valid protocol.
+
 ## Features
 
 * Allow using *http*, *https* and *schema-less* urls. (will be configurable in future)
